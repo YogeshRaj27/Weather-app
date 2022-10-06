@@ -13,14 +13,14 @@ const Forecast = () => {
   return (
     <div className="forecast-wrapper">
       {Object.values(Data).map((items, index) => (
-        <>
-          <Carousel
+          <Carousel 
+          key={index}
             itemsToShow={3}
             itemPadding={[20, 0]}
             breakPoints={breakpoints}
           >
-            {items.results.channel.item.forecast?.map((item) => (
-              <div className="forecast-info">{item.date}
+            {items.results.channel.item.forecast?.map((item,index) => (
+              <div className="forecast-info" key={index}>{item.date}
               <h3 className="forecast-day">
               {item.day}
               </h3>
@@ -30,7 +30,6 @@ const Forecast = () => {
               </div>
             ))}
           </Carousel>
-        </>
       ))}
     </div>
   );

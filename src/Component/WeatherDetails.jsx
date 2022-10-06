@@ -5,8 +5,8 @@ import Data from "../weather.json";
 const WeatherDetails = () => {
   return (
     <div className="weatherDetails-wrapper">
-      {Object.values(Data).map((items) => (
-        <div>
+      {Object.values(Data).map((items,index) => (
+        <div key={index}>
           Weather Today in {" " + items.results.channel.location.city}
           {" " + items.results.channel.location.country}
           <h1 className="temprature">
