@@ -1,0 +1,35 @@
+.forecast-wrapper{ 
+    width: 70vw;
+    display: flex; 
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+ flex-direction: column; 
+}
+.forecast-info{ 
+    width : 95%;
+    background-color : rgb(249, 249, 249);
+    height : 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.exact-temp{
+    margin : 2px;
+    padding : 10px;
+    font-size: 50px;
+    color: rgb(39, 16, 102);
+}
+
+.forecast-day{
+    margin : 1px;
+    padding : 5px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.rec.rec-dot{
+    display: none;
+}

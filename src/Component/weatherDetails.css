@@ -1,0 +1,75 @@
+.weatherDetails-wrapper{
+    background-color : rgb(255, 255, 255);
+    width : 58vw;
+    padding : 1.5rem;
+    border-radius: 25px;
+}
+.weather-details-info-Humidity
+{
+    border-bottom: 1.5px solid black ;
+    margin-right: 25px;
+    display : flex;
+    justify-content : space-between;
+} 
+.weather-details-info-Pressure
+{
+    border-bottom: 1.5px solid black ;
+    margin-right: 30px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.weather-details-info-Visibility
+{
+    border-bottom: 1.5px solid black ;
+    margin-right: 25px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.weather-details-info-Sunrise
+{
+    border-bottom: 1.5px solid black ;
+    margin-right: 30px;
+    display : flex;
+    justify-content : space-between;
+    
+}
+
+.weather-details-info-Wind
+{
+    border-bottom: 1.5px solid black ;
+    margin-right: 25px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.weather-details-info-Sunset
+{
+    border-bottom: 1.5px solid black ;
+    margin-right: 30px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.weather-details-info-wrapper{
+    display : grid;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: 5vh 5vh 5vh;
+    align-items : center;
+    padding : 0.5rem;
+}
+
+span{
+    margin-right : 2rem;
+}
+
+h1{
+    margin : 2px;
+}
+
+.temprature
+{
+    color: rgb(39,16,102);
+
+}
